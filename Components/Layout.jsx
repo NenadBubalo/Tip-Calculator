@@ -33,7 +33,7 @@ export default function Layout() {
 
   return (
       <Box
-          backgroundColor={'var(--light-grayish-cyan)'}
+          backgroundColor={'#C5E4E7'}
           width={'100%'}
           height={['933px', '933px', '100vh']}
           position='relative'
@@ -62,7 +62,7 @@ export default function Layout() {
               width={['100%', '100%', '100%', '920px']}
               height={['789px', '798px', '100vh', '481px']}
               position={['absolute']}
-              backgroundColor={'var(--white)'}
+              backgroundColor={'#FFFFFF'}
               top={['144px', '144px', '144px', '304px']}
               display={['flex']}
               flexDirection={['column']}
@@ -89,7 +89,7 @@ export default function Layout() {
                   <Box
                       width={['100%']}
                       height={['48px']}
-                      backgroundColor='var(--very-light-grayish-cyan)'
+                      backgroundColor='#F3F9FA'
                       display={['flex']}
                       flexDirection={['row']}
                   >
@@ -110,7 +110,7 @@ export default function Layout() {
                           paddingRight={['19.26px']}
                       >
                           <Input
-                              color={'var(--dark-grayish-cyan)'}
+                              color={'#547878'}
                               fontWeight={['700']}
                               placeholder='0'
                               variant={'unstyled'}
@@ -239,7 +239,7 @@ export default function Layout() {
                   <Box
                       width={['100%']}
                       height={['48px']}
-                      backgroundColor='var(--very-light-grayish-cyan)'
+                      backgroundColor='#F3F9FA'
                       display={['flex']}
                       flexDirection={['row']}
                   >
@@ -260,7 +260,7 @@ export default function Layout() {
                           paddingRight={['19.26px']}
                       >
                            <Input
-                              color={'var(--dark-grayish-cyan)'}
+                              color={'#547878'}
                               fontWeight={['700']}
                               placeholder='1'
                               variant={'unstyled'}
