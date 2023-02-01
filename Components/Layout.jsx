@@ -65,15 +65,26 @@ export default function Layout() {
               backgroundColor={'#FFFFFF'}
               top={['144px', '144px', '144px', '304px']}
               display={['flex']}
-              flexDirection={['column']}
+              flexDirection={['column', 'column', 'column', 'row']}
               alignItems={['center']}
               justifyContent={['space-between']}
-              paddingTop={['20px']}
-              paddingBottom={['20px']}
+              paddingTop={['20px', '20px', '20px', '0']}
+              paddingBottom={['20px', '20px', '20px', '0']}
           >
-              {/* Bill Box */}
+              {/* Left Box Just Desktop-view */}
               <Box
-                  width={['311px']}
+                  display={['none', 'none', 'none', 'flex']}
+                  width={['50%']}
+                  height='417px'
+                  flexDirection='column'
+                  justifyContent={'space-between'}
+                  alignItems='center'
+                  
+              >
+              
+                  {/* Bill Box */}
+              <Box
+                  width={['311px', '311px', '311px', '379px']}
                   height={['78px']}
                   display={['flex']}
                   flexDirection={['column']}
@@ -126,7 +137,7 @@ export default function Layout() {
 
               {/* Select Tip Box */}
               <Box
-                  width={['311px']}
+                  width={['311px', '311px', '311px', '379px']}
                   height={['216px']}
                   display={['flex']}
                   flexDirection={['column']}
@@ -223,7 +234,7 @@ export default function Layout() {
 
               {/* Number of People Box */}
               <Box
-                  width={['311px']}
+                  width={['311px', '311px', '311px', '379px']}
                   height={['78px']}
                   display={['flex']}
                   flexDirection={['column']}
@@ -273,10 +284,26 @@ export default function Layout() {
                     </Box>
               </Box>
 
-              {/* Display Box */}
+              </Box>
+
+              
+
+              {/* Right Box Just Desktop-view */}
               <Box
-                  width={['327px']}
-                  height={['257px']}
+                  display={['none', 'none', 'none', 'flex']}
+                  flexDirection='column'
+                  width={['50%']}
+                  height='417px'
+                  justifyContent={'center'}
+                  alignItems='center'
+              >
+                  
+                  {/* Display Box */}
+                  
+                  <Box
+                      
+                  width={['327px', '327px', '327px', '413px']}
+                  height={['257px', '257px', '257px', '417px']}
                   backgroundColor={['#00474B']}
                   borderRadius='15px'
                   display={'flex'}
@@ -285,7 +312,8 @@ export default function Layout() {
                   paddingTop={['30px']}
                   paddingBottom={['30px']}
                   justifyContent={['space-between']}
-              >
+                  >
+                      
                   <Box
                       width={['281px']}
                       height={['116px']}
@@ -380,8 +408,9 @@ export default function Layout() {
                       Reset
                   </Button>
 
+                  </Box>
+                  
               </Box>
-
           </Box>
           
       </Box>
